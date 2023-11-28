@@ -1,0 +1,29 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    background-color: whitesmoke;
+  }
+  
+  .signup-card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px 10px 0 0; /* Rounded corners only at the top */
+    background: linear-gradient(to bottom, blueviolet 20%, transparent 100%, transparent 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 500px;
+    width: 400px; /* Adjust the width as needed */
+    color: white;
+  }
+  
+  .m {
+    background-color: blue;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+  }
+  

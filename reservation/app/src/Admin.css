@@ -1,0 +1,33 @@
+.admin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: white;
+    border: 10px solid blueviolet;
+  }
+  
+  .admin-card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 0 0 10px 10px; /* Rounded corners only at the bottom */
+    background: linear-gradient(to bottom, blueviolet 20%, transparent 100%, transparent 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 500px;
+    width: 400px; /* Adjust the width as needed */
+    color: white;
+    margin-top: -50px; /* To align the form within the curved area */
+    padding-bottom: 20px; /* Additional padding at the bottom for aesthetics */
+  }
+  
+  .admin-button {
+    background-color: blueviolet;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+  
